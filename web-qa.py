@@ -21,11 +21,11 @@ from ast import literal_eval
 HTTP_URL_PATTERN = r'^http[s]{0,1}://.+$'
 
 # Define OpenAI api_key
-# openai.api_key = '<Your API Key>'
+openai.api_key = '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'
 
 # Define root domain to crawl
-domain = "openai.com"
-full_url = "https://openai.com/"
+domain = "advertising.amazon.de/help"
+full_url = "https://advertising.amazon.de/help/"
 
 # Create a class to parse the HTML and get the hyperlinks
 class HyperlinkParser(HTMLParser):
